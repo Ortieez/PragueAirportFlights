@@ -21,13 +21,15 @@ body {
 
 #insertContent tr {
   font-size: 15px;
-  transition: font-size 0.5s;
+  height: 10px;
+  transition: height 0.5s;
 }
 
 #insertContent tr:hover {
   background-color: #504945;
-  font-size: 30px;
-  transition: font-size 0.5s;
+  height: 100px;
+  transition: height 0.5s;
+  font-weight: bold;
 }
 
 #content th {
