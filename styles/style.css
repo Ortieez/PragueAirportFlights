@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #282828;
+  color: #ebdbb2;
+  font-family: "Roboto", sans-serif;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+#content tr:nth-child(even) {
+  background-color: #3c3836;
+}
+
+#insertContent tr {
+  font-size: 15px;
+  transition: font-size 0.5s;
+}
+
+#insertContent tr:hover {
+  background-color: #504945;
+  font-size: 30px;
+  transition: font-size 0.5s;
+}
+
+#content th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #d65d0e;
+  font-size: larger;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.sidebyside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.sidebyside a {
+  color: #fe8019;
+  text-decoration: none;
+  filter: grayscale(100);
+}
+
+.sidebyside svg {
+  width: 30px;
+  padding-right: 10px;
+}
+
+.active {
+  color: #fe8019;
+  text-decoration: none;
+  filter: grayscale(0) !important;
+}
+
+.footer {
+  margin: 20px;
+}
+
+.footer a {
+  color: #d65d0e;
+  text-decoration: none;
+  transition: font-size 0.3s;
+}
+
+.footer a:hover {
+  font-size: 20px;
+  transition: font-size 0.3s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #504945;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fe8019;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d65d0e;
+}
